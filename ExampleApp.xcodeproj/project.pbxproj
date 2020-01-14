@@ -24,6 +24,8 @@
 		2271DE802387E297002B3DE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2271DE7F2387E297002B3DE8 /* Preview Assets.xcassets */; };
 		2271DE832387E297002B3DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2271DE812387E297002B3DE8 /* LaunchScreen.storyboard */; };
 		2271DE8E2387E297002B3DE8 /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271DE8D2387E297002B3DE8 /* ExampleAppTests.swift */; };
+		22B9BCA123CE10C300F45031 /* MySqlConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9BC9F23CE10C300F45031 /* MySqlConnector.swift */; };
+		22B9BCA223CE10C300F45031 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9BCA023CE10C300F45031 /* HttpRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		2271DE8D2387E297002B3DE8 /* ExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppTests.swift; sourceTree = "<group>"; };
 		2271DE8F2387E297002B3DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2271DE942387E297002B3DE8 /* ExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B9BC9F23CE10C300F45031 /* MySqlConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySqlConnector.swift; sourceTree = "<group>"; };
+		22B9BCA023CE10C300F45031 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		221C38382387F2CF0063767F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				22B9BCA023CE10C300F45031 /* HttpRequest.swift */,
+				22B9BC9F23CE10C300F45031 /* MySqlConnector.swift */,
 				221C38392387F2CF0063767F /* DataUtil.swift */,
 				221C383A2387F2CF0063767F /* ScreenshotUtil.swift */,
 			);
@@ -365,9 +371,11 @@
 				221C38502387F2CF0063767F /* BaseElement.swift in Sources */,
 				221C384F2387F2CF0063767F /* BasePage.swift in Sources */,
 				221C384D2387F2CF0063767F /* HomePage.swift in Sources */,
+				22B9BCA123CE10C300F45031 /* MySqlConnector.swift in Sources */,
 				221C38512387F2CF0063767F /* BaseTest.swift in Sources */,
 				221C38482387F2CF0063767F /* DataUtil.swift in Sources */,
 				221C38492387F2CF0063767F /* ScreenshotUtil.swift in Sources */,
+				22B9BCA223CE10C300F45031 /* HttpRequest.swift in Sources */,
 				221C384A2387F2CF0063767F /* Springboard.swift in Sources */,
 				221C384B2387F2CF0063767F /* SystemAlerts.swift in Sources */,
 			);
