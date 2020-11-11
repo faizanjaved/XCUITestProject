@@ -22,6 +22,7 @@ class Springboard {
             springboard.coordinate(withNormalizedOffset: CGVector(dx: (iconFrame.minX + 3) / springboardFrame.maxX, dy: (iconFrame.minY + 3) / springboardFrame.maxY)).tap()
 
             sleep(1)
+            springboard.alerts.buttons["Delete App"].tap()
             springboard.alerts.buttons["Delete"].tap()
         }
     }
